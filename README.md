@@ -1,16 +1,39 @@
-# rentapp
+🎌 AnimeHub – Flutter Anime App
 
-A new Flutter project.
+A beautiful, fast, and lightweight Flutter app to discover trending anime, search titles, view details, and manage your personal watchlist. Built with clean architecture, smooth animations, and offline-friendly caching.
 
-## Getting Started
+✨ Features
 
-This project is a starting point for a Flutter application.
+🔥 Trending & Popular lists (paginated)
 
-A few resources to get you started if this is your first Flutter project:
+🔎 Search anime by title
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+📄 Detailed pages: synopsis, genres, rating, episodes, status
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+⭐ Watchlist / Favorites (local persistent storage)
+
+🧭 Smart navigation with deep-link–ready routes
+
+⚡ Fast & responsive UI with shimmer placeholders
+
+📶 Offline support via local cache (optional)
+
+🌙 Dark/Light themes
+
+API: Uses the free Jikan REST API (MyAnimeList wrapper). You can swap to AniList GraphQL if preferred.
+
+🏗️ Tech Stack
+
+Flutter 3.x (Dart)
+
+State Management: Provider (ChangeNotifier)
+
+HTTP: dio
+
+Local Storage: sqflite + shared_preferences (watchlist & cache)
+
+Image Caching: cached_network_image
+
+Routing: go_router (or Navigator 2.0)
+
+Animations: implicit & hero animations
