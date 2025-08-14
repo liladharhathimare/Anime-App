@@ -1,39 +1,49 @@
-🎌 AnimeHub – Flutter Anime App
+# 🎯 Anime-App
 
-A beautiful, fast, and lightweight Flutter app to discover trending anime, search titles, view details, and manage your personal watchlist. Built with clean architecture, smooth animations, and offline-friendly caching.
+Anime-App is a Flutter project for anime lovers to explore, search, and save their favorite anime.  
+It fetches real-time anime data from the **Jikan API** (MyAnimeList) and presents it with a clean, responsive UI.
 
-✨ Features
+---
 
-🔥 Trending & Popular lists (paginated)
+## ✨ Features
 
-🔎 Search anime by title
+- 📜 **Top Anime List** – Browse the most popular anime.
+- 🔍 **Search** – Find anime by name instantly.
+- 📄 **Detailed Info** – Synopsis, genres, episodes, and ratings.
+- ❤️ **Favorites** – Save your favorite anime locally.
+- 📱 **Responsive UI** – Works on Android and iOS.
 
-📄 Detailed pages: synopsis, genres, rating, episodes, status
+---
 
-⭐ Watchlist / Favorites (local persistent storage)
+## 🛠 Tech Stack
 
-🧭 Smart navigation with deep-link–ready routes
+- **Framework:** [Flutter](https://flutter.dev)
+- **Language:** Dart
+- **State Management:** Provider
+- **API:** [Jikan API](https://jikan.moe)
+- **Other:** HTTP, Cached Network Images
 
-⚡ Fast & responsive UI with shimmer placeholders
+---
 
-📶 Offline support via local cache (optional)
+## 📸 Screenshots
 
-🌙 Dark/Light themes
+| Home Screen | Anime Details | Search |
+|-------------|--------------|--------|
+| ![Home](screenshots/home.png) | ![Details](screenshots/details.png) | ![Search](screenshots/search.png) |
 
-API: Uses the free Jikan REST API (MyAnimeList wrapper). You can swap to AniList GraphQL if preferred.
+*(Place your actual screenshots in a `/screenshots` folder)*
 
-🏗️ Tech Stack
+---
 
-Flutter 3.x (Dart)
+## 🚀 Getting Started
 
-State Management: Provider (ChangeNotifier)
+### 1️⃣ Prerequisites
+- Install [Flutter SDK](https://flutter.dev/docs/get-started/install)
+- Install [Dart](https://dart.dev/get-dart)
+- Android Studio / VS Code with Flutter plugin
 
-HTTP: dio
+### 2️⃣ Clone the Repository
+```bash
+git clone https://github.com/liladharhathimare/Anime-App.git
+cd Anime-App
 
-Local Storage: sqflite + shared_preferences (watchlist & cache)
-
-Image Caching: cached_network_image
-
-Routing: go_router (or Navigator 2.0)
-
-Animations: implicit & hero animations
