@@ -23,17 +23,6 @@ It fetches real-time anime data from the **Jikan API** (MyAnimeList) and present
 - **API:** [Jikan API](https://jikan.moe)
 - **Other:** HTTP, Cached Network Images
 
----
-
-## 📸 Screenshots
-
-| Home Screen | Anime Details | Search |
-|-------------|--------------|--------|
-| ![Home](screenshots/home.png) | ![Details](screenshots/details.png) | ![Search](screenshots/search.png) |
-
-*(Place your actual screenshots in a `/screenshots` folder)*
-
----
 
 ## 🚀 Getting Started
 
